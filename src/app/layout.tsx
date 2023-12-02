@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Fira_Sans, Oswald } from "next/font/google";
 
+import { Footer, Header } from "@components/layout";
+
 import "./globals.css";
 
 const oswald = Oswald({
@@ -71,9 +73,11 @@ export default function RootLayout({
       <body
         className={`${oswald.variable} ${allRoundGothic.className} ${saygon.className} ${firaSans.variable}`}
       >
-        <header></header>
-        <main>{children}</main>
-        <footer></footer>
+        <Header />
+        <main className="bg-white-primary text-green-primary">{children}</main>
+        <Footer />
+
+        <div id="menu" />
       </body>
     </html>
   );

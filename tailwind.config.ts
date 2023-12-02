@@ -37,13 +37,13 @@ const config: Config = {
         black: "#292D32",
         green: {
           primary: "#173D33",
-          secondary: "97D28B",
+          secondary: "#97D28B",
           light: "#DCEFD8",
           "alpha-25": "rgba(23, 61, 51, 0.25)",
           "alpha-75": "rgba(23, 61, 51, 0.75)",
         },
         gray: {
-          primary: "EAEDF1",
+          primary: "#EAEDF1",
           secondary: "#BDBDBD",
         },
       },

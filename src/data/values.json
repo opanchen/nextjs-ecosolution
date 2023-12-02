@@ -1,0 +1,46 @@
+{
+  "values": [
+    {
+      "order": 1,
+      "text": {
+        "title": "Openness",
+        "desc": "to the world, people, new ideas and projects",
+        "icon": "circle"
+      }
+    },
+    {
+      "order": 2,
+      "text": {
+        "title": "Responsibility",
+        "desc": "we are aware that the results of our work have an impact on our lives and the lives of future generations",
+        "icon": "globus"
+      }
+    },
+    {
+      "order": 5,
+      "text": {
+        "title": "Innovation",
+        "desc": "we use the latest technology to implement non-standard solutions",
+        "icon": "charge"
+      }
+    },
+    {
+      "order": 6,
+      "text": {
+        "title": "Quality",
+        "desc": "we do not strive to be the first among others, but we want to be the best in our business",
+        "icon": "ranking"
+      }
+    },
+    {
+      "order": 3,
+      "pathLabel": "wind-farms.jpg",
+      "alt": "Engineers on the background of wind farms field"
+    },
+    {
+      "order": 4,
+      "pathLabel": "solar-panels.jpg",
+      "alt": "An engineer on the background of solar panels"
+    }
+  ]
+}

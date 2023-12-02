@@ -1,0 +1,34 @@
+{
+  "navLinks": [
+    {
+      "label": "Main",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "#about"
+    },
+    {
+      "label": "Cases",
+      "path": "#cases"
+    },
+    {
+      "label": "FAQ",
+      "path": "#faq"
+    },
+    {
+      "label": "Contact Us",
+      "path": "#contacts"
+    }
+  ],
+  "socLinks": [
+    {
+      "label": "Facebook",
+      "path": "https://www.facebook.com/"
+    },
+    {
+      "label": "Instagram",
+      "path": "https://www.instagram.com/"
+    }
+  ]
+}

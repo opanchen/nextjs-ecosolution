@@ -12,6 +12,42 @@ body {
   @apply font-fira-sans;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+.transition_prop {
+  @apply transition ease-linear duration-300;
+}
+
+.section {
+  @apply pb-9 md:pb-[100px] xl:pb-[120px] font-fira-sans;
+}
+
+.text-section-title {
+  @apply font-oswald text-[28px] md:text-[36px] xl:text-[48px] leading-none uppercase text-green-primary;
+}
+
+.hero-address::before {
+  content: "";
+  @apply absolute z-0 top-0 left-0 w-full h-[1px] bg-green-secondary;
+}
+
+.values-desc::before {
+  content: "";
+  @apply hidden md:block absolute bottom-0 left-[-12px] xl:left-[-160px] w-[1px] h-full bg-green-secondary;
+  /* @apply hidden md:block absolute bottom-0 left-[-12px] xl:left-auto xl:right-[620px] w-[1px] h-full bg-green-secondary; */
+}
+
+.value-card-top::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-full h-[1px] bg-green-secondary;
+}
+
+.grid > * {
+  outline: 1px dotted teal;
+}
+
 /* 
 @media (prefers-color-scheme: dark) {
   :root {
