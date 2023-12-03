@@ -17,10 +17,6 @@ const firaSans = Fira_Sans({
   variable: "--font-fira-sans",
 });
 
-// const allRoundGothic = localFont({
-//   src: "./../../public/fonts/AllRoundGothic-Medium.woff2",
-//   variable: "--font-all-round-gothic",
-// });
 const allRoundGothic = localFont({
   src: "./../../public/fonts/Fontspring-DEMO-AllRoundGothic-Medium.otf",
   variable: "--font-all-round-gothic",
@@ -34,6 +30,25 @@ const saygon = localFont({
 export const metadata: Metadata = {
   title: "Ecosolution",
   description: "Renewable energy for any task",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL as string),
+  manifest: "/meta/site.webmanifest",
+  keywords:
+    "Ecology, Non-polluting energy sources, Power generation, Nature, Ukraine",
+  openGraph: {
+    title: "Ecosolution",
+    description: "Renewable energy for any task",
+    siteName: "Ecosolution",
+    locale: "en-US",
+    images: [
+      {
+        url: "/meta/ogp-image.jpg",
+        width: 1034,
+        height: 436,
+        alt: "Ecosolution. Renewable energy for any task",
+      },
+    ],
+    url: process.env.NEXT_PUBLIC_BASE_URL as string,
+  },
   icons: {
     icon: [
       {
@@ -60,6 +75,12 @@ export const metadata: Metadata = {
         type: "image/png",
       },
     ],
+    shortcut: "/meta/favicon.ico",
+    apple: "/meta/apple-touch-icon.png",
+    other: {
+      rel: "/meta/apple-touch-icon.png",
+      url: "/meta/apple-touch-icon.png",
+    },
   },
 };
 

@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
 body {
   @apply font-fira-sans;
 }
@@ -36,7 +30,6 @@ body {
 .values-desc::before {
   content: "";
   @apply hidden md:block absolute bottom-0 left-[-12px] xl:left-[-160px] w-[1px] h-full bg-green-secondary;
-  /* @apply hidden md:block absolute bottom-0 left-[-12px] xl:left-auto xl:right-[620px] w-[1px] h-full bg-green-secondary; */
 }
 
 .value-card-top::after {
@@ -78,15 +71,8 @@ body {
 .text-form-input {
   @apply text-[18px] tracking-[-0.72px] xl:text-[20px] xl:tracking-[-0.8px] placeholder:text-gray-secondary placeholder:opacity-100;
 }
-/* .grid > * {
-  outline: 1px dotted teal;
-} */
 
-/* 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
+.footer-inner::before {
+  content: "";
+  @apply absolute top-0 left-0 w-full h-[1px] bg-green-secondary;
+}

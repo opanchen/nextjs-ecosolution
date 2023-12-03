@@ -5,7 +5,7 @@ export const Hero: React.FC = () => {
   return (
     <section className="pt-[222px] pb-9 md:pb-[100px] xl:pb-[120px] md:pt-[240px] xl:pt-[264px] font-fira-sans">
       <Container>
-        <div className="outline-dashed">
+        <div className="">
           <div className="flex flex-col gap-6 md:flex-row md:gap-0 md:justify-between mb-6 md:mb-[26px] xl:mb-[28px]">
             <h1 className="font-oswald text-[36px] md:text-[48px] xl:text-[64px] leading-none uppercase text-green-primary">
               <span>Renewable </span>

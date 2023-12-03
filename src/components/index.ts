@@ -13,3 +13,4 @@ export * from "./CasesSlider";
 export * from "./InfoAccordion";
 export * from "./ContactForm";
 export * from "./ui/FormErrorMessage";
+export * from "./ui/TopScrollBtn";

@@ -23,5 +23,3 @@ export const useHash = () => {
 
   return isClient ? hash : null;
 };
-
-// export default useHash;

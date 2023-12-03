@@ -22,7 +22,7 @@ export const Contacts: React.FC = () => {
                 <ul className="flex flex-col gap-3">
                   <li>
                     <Link
-                      href="tel:38 (098) 12 34 567"
+                      href="tel:380981234567"
                       className="group flex items-center gap-2 text-contact-data"
                     >
                       <IconPhone className="w-6 h-6 group-hover:text-green-secondary group-focus:text-green-secondary transition_prop" />
@@ -31,7 +31,7 @@ export const Contacts: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      href="tel:38 (093) 12 34 567"
+                      href="tel:380931234567"
                       className="group flex items-center gap-2 text-contact-data"
                     >
                       <IconPhone className="w-6 h-6 group-hover:text-green-secondary group-focus:text-green-secondary transition_prop" />

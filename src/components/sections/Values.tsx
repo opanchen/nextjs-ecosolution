@@ -4,7 +4,7 @@ export const Values: React.FC = () => {
   return (
     <section id="values" className="section">
       <Container>
-        <div className="outline-dashed flex flex-col gap-9 md:gap-[100px] xl:gap-[120px]">
+        <div className="flex flex-col gap-9 md:gap-[100px] xl:gap-[120px]">
           <div className="flex flex-col gap-6 md:flex-row md:justify-between md:gap-0">
             <h2 className="text-section-title">
               <span>Main values of </span>

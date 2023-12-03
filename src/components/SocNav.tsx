@@ -7,11 +7,12 @@ import IconInstagram from "../../public/icons/icon-instagram.svg";
 
 type Props = {
   location: "burger-menu" | "contacts" | "footer";
+  className?: string;
 };
 
 type Socials = "facebook" | "instagram";
 
-export const SocNav: React.FC<Props> = ({ location }) => {
+export const SocNav: React.FC<Props> = ({ location, className = "" }) => {
   const { socLinks } = data;
 
   const getIcon = (icon: Socials) => {
@@ -28,7 +29,7 @@ export const SocNav: React.FC<Props> = ({ location }) => {
   };
 
   return (
-    <ul className="flex items-center gap-2">
+    <ul className={`flex items-center gap-2 ${className}`}>
       {socLinks.map(({ label, path }) => {
         return (
           <li key={label}>

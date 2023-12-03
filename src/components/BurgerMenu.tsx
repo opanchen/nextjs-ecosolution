@@ -46,7 +46,7 @@ export const BurgerMenu: React.FC<Props> = ({ handleClose }) => {
         onClick={handleBackdropClick}
       >
         <div
-          className="outline-dashed outline-red-600 w-full h-full  flex flex-col items-center md:items-end"
+          className="w-full h-full  flex flex-col items-center md:items-end"
           onClick={handleBackdropClick}
         >
           <div className="w-full z-20 preSm:w-[320px] xl:w-[365px] h-full bg-green-alpha-75 rounded-[25px] backdrop-blur-[12.5px] text-white-secondary px-5 py-6 font-fira-sans flex flex-col">

@@ -1,5 +1,4 @@
 import { Container, Counter } from "@components";
-// import Counter from "@components/Counter";
 
 export const Electricity: React.FC = () => {
   return (

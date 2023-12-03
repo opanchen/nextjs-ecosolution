@@ -46,7 +46,6 @@ export const HeroImage: React.FC = () => {
         className="object-cover object-center w-full h-full"
         src="/images/hero/mobile/hero.jpg"
         alt="Electric turbines of a wind farm"
-        sizes="100vw"
       />
     </picture>
   );
