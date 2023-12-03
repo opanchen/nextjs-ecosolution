@@ -22,10 +22,9 @@ export const Values: React.FC = () => {
               of nature to meet the world&apos;s energy needs.
             </p>
           </div>
+
           <ValuesGrid />
         </div>
-
-        {/* <div className="w-full h-screen bg-slate-200"></div> */}
       </Container>
     </section>
   );

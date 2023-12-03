@@ -8,3 +8,5 @@ export * from "./MainNav";
 export * from "./SocNav";
 export * from "./ui/HeroImage";
 export * from "./ValuesGrid";
+export * from "./Counter";
+export * from "./CasesSlider";

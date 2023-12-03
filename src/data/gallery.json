@@ -1,0 +1,49 @@
+{
+  "gallery": [
+    {
+      "order": 1,
+      "location": "Lviv Region, Radekhiv town",
+      "enterprize": "Private Enterprise “ZAKHIDNYI BUH”",
+      "desc": "Wind Power for auto field irrigation",
+      "date": "July 2023",
+      "imagePath": "slide-01",
+      "url": "https://zahbug.com/"
+    },
+    {
+      "order": 2,
+      "location": "Zhytomyr city",
+      "enterprize": "Private Enterprise “Bosch”",
+      "desc": "Solar Panels for industrial use",
+      "date": "November 2023",
+      "imagePath": "slide-02",
+      "url": "https://www.bosch.ua/"
+    },
+    {
+      "order": 3,
+      "location": "Rivne city",
+      "enterprize": "Private Enterprise “Biotech”",
+      "desc": "Thermal modules",
+      "date": "October 2023",
+      "imagePath": "slide-03",
+      "url": "https://www.google.com/search?q=Private+Enterprise+%E2%80%9CBiotech%E2%80%9D+rivne+ukraine&sca_esv=587408662&rlz=1C5CHFA_enPL1051PL1051&sxsrf=AM9HkKmpEpCy6FdxNzDvS7DHmE9C_JJgAQ%3A1701589686718&ei=tjJsZYWyK9WMxc8P-IeFiAM&ved=0ahUKEwiF5dHG4_KCAxVVRvEDHfhDATEQ4dUDCBA&uact=5&oq=Private+Enterprise+%E2%80%9CBiotech%E2%80%9D+rivne+ukraine&gs_lp=Egxnd3Mtd2l6LXNlcnAiLlByaXZhdGUgRW50ZXJwcmlzZSDigJxCaW90ZWNo4oCdIHJpdm5lIHVrcmFpbmVIqEdQtANYnkVwAXgBkAEAmAG7AaAB1Q2qAQQ0LjExuAEDyAEA-AEB-AECqAIKwgIHECMY6gIYJ8ICBBAjGCfCAgYQABgWGB7CAggQABgWGB4YD8ICBRAhGKABwgIIECEYFhgeGB3CAgcQIRigARgK4gMEGAAgQYgGAQ&sclient=gws-wiz-serp"
+    },
+    {
+      "order": 4,
+      "location": "Kherson city",
+      "enterprize": "Private Enterprise “HealthyFarm”",
+      "desc": "Wind power",
+      "date": "September 2021",
+      "imagePath": "slide-04",
+      "url": "https://www.google.com/search?q=private+enterprise+%E2%80%9Chealthyfarm%E2%80%9D+ukraine&sca_esv=587408662&rlz=1C5CHFA_enPL1051PL1051&sxsrf=AM9HkKnBHuemrZk2-Sfchvq0Pg3D-7IIBg%3A1701590210481&ei=wjRsZevkHNapxc8Ppd-AuAg&ved=0ahUKEwjrzbHA5fKCAxXWVPEDHaUvAIcQ4dUDCBA&uact=5&oq=private+enterprise+%E2%80%9Chealthyfarm%E2%80%9D+ukraine&gs_lp=Egxnd3Mtd2l6LXNlcnAiLHByaXZhdGUgZW50ZXJwcmlzZSDigJxoZWFsdGh5ZmFybeKAnSB1a3JhaW5lMgcQIxiwAhgnSPIXULwCWJQWcAF4AJABAJgBnQGgAccHqgEDMy42uAEDyAEA-AEBwgIKECMYrgIYsAMYJ8ICBxAjGK4CGCfCAgcQIRigARgK4gMEGAEgQYgGAZAGAQ&sclient=gws-wiz-serp#cobssid=s"
+    },
+    {
+      "order": 5,
+      "location": "Zaporizhia city",
+      "enterprize": "Private Enterprise “Biotech”",
+      "desc": "Mini nuclear stations",
+      "date": "May 2021",
+      "imagePath": "slide-05",
+      "url": "https://www.google.com/search?q=Private+Enterprise+%E2%80%9CBiotech%E2%80%9D+Zaporizhia+ukraine&sca_esv=587408662&rlz=1C5CHFA_enPL1051PL1051&sxsrf=AM9HkKl2uc82ceazGoruqIj7JdzaMWKiLg%3A1701590254135&ei=7jRsZd3pB8K-xc8P-5yx0Ag&ved=0ahUKEwjdmJrV5fKCAxVCX_EDHXtODIoQ4dUDCBA&uact=5&oq=Private+Enterprise+%E2%80%9CBiotech%E2%80%9D+Zaporizhia+ukraine&gs_lp=Egxnd3Mtd2l6LXNlcnAiM1ByaXZhdGUgRW50ZXJwcmlzZSDigJxCaW90ZWNo4oCdIFphcG9yaXpoaWEgdWtyYWluZTIEECEYFUi8FFCtAljhEnABeACQAQCYAaUBoAGAA6oBAzAuM7gBA8gBAPgBAcICBRAhGKAB4gMEGAEgQYgGAQ&sclient=gws-wiz-serp"
+    }
+  ]
+}

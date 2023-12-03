@@ -44,6 +44,25 @@ body {
   @apply absolute bottom-0 left-0 w-full h-[1px] bg-green-secondary;
 }
 
+.electricity-title::after {
+  content: "";
+  @apply absolute top-[80px] md:top-[96px] xl:top-[112px] left-1/2 w-[1px] h-[48px] md:h-[87px] bg-green-secondary;
+}
+
+.cases-heading::after {
+  content: "";
+  @apply absolute smOnly:hidden top-[5px] xl:top-0 left-1/2 w-[1px] h-[65px] xl:h-[96px] bg-green-secondary;
+}
+
+.slide-cart-top::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-full h-[1px] bg-green-secondary;
+}
+
+.slider-nav-btn {
+  @apply flex items-center justify-center w-[66px] h-[66px] xl:w-[84px] xl:h-[84px] rounded-full border-[1px] border-green-primary hover:text-green-secondary hover:border-green-secondary focus:text-green-secondary focus:border-green-secondary transition_prop;
+}
+
 .grid > * {
   outline: 1px dotted teal;
 }
