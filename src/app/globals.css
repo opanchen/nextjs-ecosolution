@@ -63,9 +63,9 @@ body {
   @apply flex items-center justify-center w-[66px] h-[66px] xl:w-[84px] xl:h-[84px] rounded-full border-[1px] border-green-primary hover:text-green-secondary hover:border-green-secondary focus:text-green-secondary focus:border-green-secondary transition_prop;
 }
 
-.grid > * {
+/* .grid > * {
   outline: 1px dotted teal;
-}
+} */
 
 /* 
 @media (prefers-color-scheme: dark) {

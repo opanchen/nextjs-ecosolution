@@ -1,0 +1,29 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "How do wind turbines and solar panels work together in a renewable energy system?",
+      "answer": "Wind turbines and solar panels generate electricity through different mechanisms. Wind turbines harness the kinetic energy of the wind to turn blades, which then drive a generator. Solar panels convert sunlight into electricity through the photovoltaic effect. When integrated into a renewable energy system, these technologies complement each other by providing a continuous and reliable power supply. Wind power is often more abundant during certain times, while solar power is consistent during daylight hours, resulting in a more stable overall energy output."
+    },
+    {
+      "id": 2,
+      "question": "What sets EcoSolution's renewable energy solutions apart from others on the market?",
+      "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore doloremque eaque neque suscipit! Eligendi hic modi adipisci! Explicabo deleniti, ad quo optio, reprehenderit sapiente culpa cupiditate soluta possimus animi laudantium?"
+    },
+    {
+      "id": 3,
+      "question": "How can businesses and communities benefit from integrating renewable energy solutions from EcoSolution?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, incidunt aliquam odio cum numquam pariatur?"
+    },
+    {
+      "id": 4,
+      "question": "What measures does EcoSolution take to ensure the environmental sustainability of its products?",
+      "answer": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eveniet doloribus dolorem error hic sunt? Hic distinctio repellat natus, maiores rem magni mollitia commodi cumque! Aliquid dolorum saepe iusto aut id minima placeat culpa. Magnam minima ullam voluptatibus officiis natus."
+    },
+    {
+      "id": 5,
+      "question": "How does EcoSolution engage with local communities and support a just transition to renewable energy?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sint sunt reprehenderit non architecto molestiae vero magni. Laboriosam distinctio consequuntur et, eius porro nesciunt veniam cumque eum repudiandae sed delectus."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { Cases, Electricity, Hero, Values } from "@components/sections";
+import { Cases, Electricity, FAQ, Hero, Values } from "@components/sections";
 
 const Home: React.FC = () => {
   return (
@@ -7,6 +7,7 @@ const Home: React.FC = () => {
       <Values />
       <Electricity />
       <Cases />
+      <FAQ />
     </>
   );
 };

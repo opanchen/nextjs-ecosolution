@@ -10,3 +10,4 @@ export * from "./ui/HeroImage";
 export * from "./ValuesGrid";
 export * from "./Counter";
 export * from "./CasesSlider";
+export * from "./InfoAccordion";
