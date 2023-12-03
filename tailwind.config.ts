@@ -46,6 +46,7 @@ const config: Config = {
           primary: "#EAEDF1",
           secondary: "#BDBDBD",
         },
+        red: "#D28B8B",
       },
     },
   },

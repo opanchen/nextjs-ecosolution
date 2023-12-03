@@ -11,3 +11,5 @@ export * from "./ValuesGrid";
 export * from "./Counter";
 export * from "./CasesSlider";
 export * from "./InfoAccordion";
+export * from "./ContactForm";
+export * from "./ui/FormErrorMessage";
