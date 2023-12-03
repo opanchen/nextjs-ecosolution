@@ -31,7 +31,7 @@ export const InfoAccordion: React.FC<Props> = ({ className = "" }) => {
           return (
             <li key={id} className="border-t-[1px] border-t-green-secondary">
               <button
-                className="w-full flex items-center gap-2 md:gap-4 xl:gap-6 py-4 xl:py-6 hover:bg-green-secondary/5 focus:bg-green-secondary/5 transition_prop"
+                className="group w-full flex items-center gap-2 md:gap-4 xl:gap-6 py-4 xl:py-6"
                 type="button"
                 onClick={() => handleClick(id)}
               >
@@ -43,7 +43,7 @@ export const InfoAccordion: React.FC<Props> = ({ className = "" }) => {
                   )}
                 </span>
 
-                <span className="inline-block text-justify text-[18px] tracking-[-0.72px] xl:text-[24px] xl:tracking-[-0.96px] leading-[1.2]">
+                <span className="inline-block text-justify text-[18px] tracking-[-0.72px] xl:text-[24px] xl:tracking-[-0.96px] leading-[1.2] group-hover:text-green-secondary group-focus:text-green-secondary transition_prop">
                   {question}
                 </span>
               </button>
